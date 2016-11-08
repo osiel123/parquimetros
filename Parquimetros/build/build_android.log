@@ -1,0 +1,223 @@
+
+Wed Jul 15 2015 18:05:28 GMT-0600 (MDT)
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.4
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 4294967296
+
+Node.js
+  Node.js Version             = 0.10.37
+  npm Version                 = 1.4.28
+
+Titanium CLI
+  CLI Version                 = 4.0.0
+
+Titanium SDK
+  SDK Version                 = 4.0.0.GA
+  SDK Path                    = /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA
+  Target Platform             = android
+
+Command
+  /usr/local/bin/node /usr/local/bin/titanium --no-colors --no-progress-bars --no-prompt build --platform android --log-level trace --sdk 4.0.0.GA --project-dir /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros --target device --android-sdk /Users/mac/Library/android-sdk-macosx --device-id 479023202675d02a --skip-js-minify --skip-js-minify
+
+[DEBUG]  Detecting modules in /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules
+[DEBUG]  Detected android module: com.mwaysolutions.barcode 0.3 @ /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/android/com.mwaysolutions.barcode/0.3
+[DEBUG]  Detected iphone module: com.logicallabs.externalaccessories 1.0.1 @ /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.logicallabs.externalaccessories/1.0.1
+[DEBUG]  Detected iphone module: com.mirasense.scanditsdk 1.3.1 @ /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1
+[DEBUG]  Detecting modules in /Users/mac/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/mac/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 3.0.3 @ /Users/mac/Library/Application Support/Titanium/modules/android/facebook/3.0.3
+[DEBUG]  Detected android module: facebook 4.0.3 @ /Users/mac/Library/Application Support/Titanium/modules/android/facebook/4.0.3
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.7
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.map 2.2.3 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.map/2.2.3
+[DEBUG]  Detected android module: ti.map 2.3.0 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.map/2.3.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ /Users/mac/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.7
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.8 @ /Users/mac/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.0
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: facebook 3.2.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/facebook/3.2.0
+[DEBUG]  Detected iphone module: facebook 4.0.3 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/facebook/4.0.3
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.2.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.0
+[DEBUG]  Detected iphone module: ti.map 2.2.2 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.2
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Looking for Titanium module id=com.mwaysolutions.barcode version=0.3 platform=android deploy-type=test
+[INFO]   Found Titanium module id=com.mwaysolutions.barcode version=0.3 platform=android deploy-type=test path=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/android/com.mwaysolutions.barcode/0.3
+[WARN]   The module com.mwaysolutions.barcode does not support the ABI: x86
+[WARN]   It only supports the following ABIs: armeabi, armeabi-v7a
+[WARN]   Your application will most likely encounter issues
+[DEBUG]  No project level plugins to load
+[DEBUG]  Titanium SDK Android directory: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building for device: 479023202675d02a
+[INFO]   Targeting Android SDK: 16
+[INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
+[INFO]   Signing with keystore: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/dev_keystore (tidev)
+[DEBUG]  App ID: app.parquimetros.movil
+[DEBUG]  Classname: Parquimetros
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: JavaScript files need to be re-encrypted
+[DEBUG]  Ignoring /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/back_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/back_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/back_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/camera_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/camera_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/camera_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/close_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/close_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/close_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/consult_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/consult_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/consult_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/consult_icon_selected.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/consult_icon_selected.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/consult_icon_selected.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/fine_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/fine_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/fine_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/fine_icon_selected.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/fine_icon_selected.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/fine_icon_selected.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/list.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/list.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/list.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/logo.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/logo.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/logo.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/qr_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/qr_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/qr_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/qr_icon_pressed.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/qr_icon_pressed.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/qr_icon_pressed.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/remove_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/remove_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/remove_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/reprint_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/reprint_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/reprint_icon.png
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/search_icon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/search_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/images/search_icon.png
+[DEBUG]  Ignoring /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/raw/beep.wav
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/raw/beep.wav => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/raw/beep.wav
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/raw/notification.wav
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/raw/notification.wav => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/raw/notification.wav
+[WARN]   Overwriting file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/appicon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/appicon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/appicon.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-long-land-hdpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-long-land-ldpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-long-port-hdpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-long-port-ldpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-notlong-land-hdpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-notlong-land-ldpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-notlong-land-mdpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-notlong-port-hdpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-notlong-port-ldpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/android/images/res-notlong-port-mdpi/default.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/platform/android/res/values/app_theme.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/app_theme.xml
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/appicon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/drawable/appicon.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/app.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/app.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/lib/ActionBarView.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/lib/ActionBarView.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/lib/database.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/lib/database.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/lib/global.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/lib/global.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/lib/network.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/lib/network.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/lib/print_utils_ios.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/lib/print_utils_ios.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/lib/style.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/lib/style.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/ApplicationWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/ApplicationWindow.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/ConsultView.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/ConsultView.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/FinesView.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/FinesView.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/GetTicketModalWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/GetTicketModalWindow.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/MenuView.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/MenuView.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/PayFineWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/PayFineWindow.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/PickerModalWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/PickerModalWindow.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/PrintWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/PrintWindow.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/QRWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/QRWindow.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/ScannerWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/ScannerWindow.js
+[DEBUG]  Symlinking /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/ui/SelectPlatesModalWindow.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets/ui/SelectPlatesModalWindow.js
+[INFO]   Encrypting JavaScript files: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/titanium_prep.macos "app.parquimetros.movil" "/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/assets" "app.js" "lib/ActionBarView.js" "lib/database.js" "lib/global.js" "lib/network.js" "lib/print_utils_ios.js" "lib/style.js" "ui/ApplicationWindow.js" "ui/ConsultView.js" "ui/FinesView.js" "ui/GetTicketModalWindow.js" "ui/MenuView.js" "ui/PayFineWindow.js" "ui/PickerModalWindow.js" "ui/PrintWindow.js" "ui/QRWindow.js" "ui/ScannerWindow.js" "ui/SelectPlatesModalWindow.js" "_app_props_.json"
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/kroll-v8.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-analytics.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/aps-analytics.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-android.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/jaxen-1.1.1.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/ti-commons-codec-1.3.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/kroll-common.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/titanium.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-app.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-ui.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-filesystem.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-media.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-appcompat.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/android-support-v4.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/android-support-v7-appcompat.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-locale.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-network.jar
+[DEBUG]  Adding dependency library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/thirdparty.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-xml.jar
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-platform.jar
+[DEBUG]  Unknown namespace ui.iphone.activityindicatorstyle, skipping
+[DEBUG]  Unknown namespace ui.iphone, skipping
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-gesture.jar
+[DEBUG]  Unknown namespace api, skipping
+[DEBUG]  Unknown namespace platform.displaycaps, skipping
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-database.jar
+[DEBUG]  Unknown namespace android.currentactivity, skipping
+[DEBUG]  Adding library /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-geolocation.jar
+[INFO]   Writing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/app.json
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-analytics.res.zip
+[DEBUG]  Copying /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-1ogh4hy/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-android.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-zv82q8/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-app.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-wqq18j/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-filesystem.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-11sjsaw/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-media.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-1rcn43f/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-locale.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-1vvbsgd/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-network.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-nnm3mg/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-xml.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-1yx9921/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-platform.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-30421r/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-gesture.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-1eqkrwa/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-database.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-1bx00mf/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[INFO]   Extracting module resources: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/modules/titanium-geolocation.res.zip
+[DEBUG]  Merging /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-11ckzi5/res/values/strings.xml => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/.classpath
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/.gitignore
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/.project
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/AndroidManifest.xml
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-568h@2x.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-667h@2x.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-Landscape-736h@3x.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-Landscape.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-Landscape@2x.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-Portrait-736h@3x.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-Portrait.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default-Portrait@2x.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/Default@2x.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets/Resources/iphone/appicon.png
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/default.properties
+[DEBUG]  Removing old file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/java-sources.txt
+[DEBUG]  Copying template /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/templates/build/AppInfo.java => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/gen/app/parquimetros/movil/ParquimetrosAppInfo.java
+[DEBUG]  Copying template /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/templates/build/App.java => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/gen/app/parquimetros/movil/ParquimetrosApplication.java
+[DEBUG]  Copying template /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/templates/build/Activity.java => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/gen/app/parquimetros/movil/ParquimetrosActivity.java
+[DEBUG]  Copying template /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/templates/build/project => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/.project
+[DEBUG]  Copying template /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/templates/build/default.properties => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/default.properties
+[DEBUG]  Copying /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/templates/build/gitignore => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/.gitignore
+[DEBUG]  Copying /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/android/templates/build/classpath => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/.classpath
+[INFO]   No aidl files to compile, continuing
+[INFO]   Generating i18n files
+[INFO]   Compiling localization files
+[DEBUG]  Processing i18n file: en/strings.xml
+[DEBUG]  Processing i18n file: es/strings.xml
+[DEBUG]  Merging en strings => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/strings.xml
+[DEBUG]  Writing es strings => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values-es/strings.xml
+[INFO]   Generating /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res/values/theme.xml
+[INFO]   Packaging application: /Users/mac/Library/android-sdk-macosx/build-tools/22.0.1/aapt "package" "-f" "-m" "-J" "/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/gen" "-M" "/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/AndroidManifest.xml" "-A" "/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/assets" "-S" "/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/res" "-I" "/Users/mac/Library/android-sdk-macosx/platforms/android-16/android.jar" "-F" "/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "/var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-sfy7wu/res" "-S" "/var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/115615-7261-6r5oy0/res"
+[ERROR]  Failed to package application:

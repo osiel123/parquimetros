@@ -1,0 +1,538 @@
+{
+    "project": {
+        "name": "LogicalLabs External Accessories Module",
+        "description": "The LogicalLabs External Accessorios Module provides Titanium developers with access to the External Accessorios framework in iOS.",
+        "version": "1.0.1",
+        "url": "http://www.logicallabs.com/"
+    },
+    "files": {
+        "Classes/AccessoryProxy.m": {
+            "name": "Classes/AccessoryProxy.m",
+            "modules": {},
+            "classes": {
+                "Accessory": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "Classes/ComLogicallabsExternalaccessoriesModule.m": {
+            "name": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "modules": {
+                "Readme": 1
+            },
+            "classes": {
+                "ExternalAccessoriesModule": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "Classes/ComLogicallabsExternalaccessoriesModuleAssets.m": {
+            "name": "Classes/ComLogicallabsExternalaccessoriesModuleAssets.m",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "Classes/SessionProxy.m": {
+            "name": "Classes/SessionProxy.m",
+            "modules": {},
+            "classes": {
+                "Session": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Readme": {
+            "name": "Readme",
+            "submodules": {},
+            "classes": {
+                "Accessory": 1,
+                "ExternalAccessoriesModule": 1,
+                "Session": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "Classes/SessionProxy.m",
+            "line": 1,
+            "description": "This module makes the iOS External Accessory framework available to Titanium developers.\n\nTo access this module from JavaScript, you would do the following:\n\nvar EAModule = require(\"com.logicallabs.externalaccessories\");\n\nThe EAModule variable is a reference to the Module object.\n\n## Usage\n\nThe following code segments are not complete; they only demonstrate the\nessentials of using the module. See the example app acompanying the module\nfor a complete example.\n\nUse the \n{{#crossLink \"ExternalAccessoriesModule/connectedAccessories:property\"}}\n{{/crossLink}}\nproperty to get access to already connected accessories:\n\n\tEAModule.connectedAccessories.forEach(function(accessory) {\n\t\t...\n\nUse the \n{{#crossLink \"ExternalAccessoriesModule/showPicker:method\"}}\n{{/crossLink}}\nfunction to allow the user to connect a new accessory:\n\n\tEAModule.showPicker({\n\t\t\tfilterCallback: function(accessoryName) {\n\t\t\t\t...\n\nUse the \n{{#crossLink \"Accessory/openSession:method\"}}\n{{/crossLink}}\nfunction to create a new communication session to an accessory:\n\n\tsession = accessory.openSession({\n\t\t\tprotocol: '...'\n\t\t});\n\nUse the\n{{#crossLink \"Session/write:method\"}}\n{{/crossLink}}\nfunction to send data to the device:\n\n\tsession.write({\n\t\tdata: buffer\n\t});\n\t\nUse the\n{{#crossLink \"Session/receivedData:event\"}}\n{{/crossLink}}\nevent to consume data received from the accessory:\n\n\tsession.addEventListener('receivedData', function(e) {\n\t\t// e.data is a TiBuffer object holding the received data\n\t});\n\n## Issues and Limitations\n\nNone.\n\n## Change Log\n\n### Version 1.0.0\n\n* Initial release\n\n### Version 1.0.1\n\n* Added 64-bit support\n* Updated license\n\n## Author\n\nZsombor Papp, Logical Labs\n\ntitanium@logicallabs.com\n\n## License\n\nSee LICENSE file included with the module for all terms and conditions specific to this module.\n\nGeneral terms and conditions for all Logical Labs Titanium Modules can be found here: http://www.logicallabs.com/logical-labs-titanium-module-terms-conditions\n\n## Copyright\n\nCopyright (c) 2014 by Logical Labs, LLC"
+        }
+    },
+    "classes": {
+        "Accessory": {
+            "name": "Accessory",
+            "shortname": "Accessory",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Readme",
+            "file": "Classes/AccessoryProxy.m",
+            "line": 1,
+            "description": "Objects of this class represent the external accessories."
+        },
+        "ExternalAccessoriesModule": {
+            "name": "ExternalAccessoriesModule",
+            "shortname": "ExternalAccessoriesModule",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Readme",
+            "namespace": "",
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 94
+        },
+        "Session": {
+            "name": "Session",
+            "shortname": "Session",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Readme",
+            "namespace": "",
+            "file": "Classes/SessionProxy.m",
+            "line": 1,
+            "description": "Objects of this class represent communication sessions between the iOS\ndevice and the accessory."
+        }
+    },
+    "classitems": [
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 30,
+            "description": "Specifies whether or not the accessory is currently connected.",
+            "itemtype": "property",
+            "name": "isConnected",
+            "type": "{Boolean}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 43,
+            "description": "The accessory’s unique connection ID to the iOS-based device.\nThe connection ID uniquely identifies this accessory to the device. If\nmultiple accessories of the same type are connected to the device, you\ncan use this information to distinguish between them.\n\nThe connection ID for an accessory persists only for the duration of the \ncurrent connection. If the accessory is disconnected and reconnected, a \nnew connection ID is assigned.",
+            "itemtype": "property",
+            "name": "connectionID",
+            "type": "{Number}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 63,
+            "description": "Firmware revision of the accessory.",
+            "itemtype": "property",
+            "name": "firmwareRevision",
+            "type": "{String}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 76,
+            "description": "Hardware revision of the accessory.",
+            "itemtype": "property",
+            "name": "hardwareRevision",
+            "type": "{String}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 89,
+            "description": "Manufacturer of the accessory.",
+            "itemtype": "property",
+            "name": "manufacturer",
+            "type": "{String}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 102,
+            "description": "Model number of the accessory.",
+            "itemtype": "property",
+            "name": "modelNumber",
+            "type": "{String}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 115,
+            "description": "Serial number of the accessory.",
+            "itemtype": "property",
+            "name": "serialNumber",
+            "type": "{String}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 128,
+            "description": "Name of the accessory.",
+            "itemtype": "property",
+            "name": "name",
+            "type": "{String}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 141,
+            "description": "The name of the protocols supported by the accessory.",
+            "itemtype": "property",
+            "name": "protocolStrings",
+            "type": "{Array of Strings}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 154,
+            "description": "Opens a session to the accessory.",
+            "itemtype": "method",
+            "name": "openSession",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "An object with the following properties:",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "protocol",
+                            "description": "The name of the protocol to be used for the\nconnection.",
+                            "type": "String"
+                        }
+                    ]
+                }
+            ],
+            "return": {
+                "description": "An object representing the session, or null if the\nsession could not be opened.",
+                "type": "Session"
+            },
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/AccessoryProxy.m",
+            "line": 189,
+            "description": "Compares this\n{{#crossLink \"Accessory\"}}\n{{/crossLink}} object to another.",
+            "itemtype": "method",
+            "name": "equals",
+            "params": [
+                {
+                    "name": "otherAccessory",
+                    "description": "",
+                    "type": "Accessory"
+                }
+            ],
+            "return": {
+                "description": "<code>true</code> if the two objects refer to the same\naccessory.",
+                "type": "Boolean"
+            },
+            "since": "1.0.0",
+            "class": "Accessory"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 185,
+            "description": "One of the possible values of the <code>errorCode</error> properties of the\n{{#crossLink \"ExternalAccessoriesModule/pickerFinished:event\"}}\n{{/crossLink}} event.\n\nThe specified accessory was already connected.",
+            "itemtype": "attribute",
+            "name": "PICKER_ERROR_ALREADY_CONNECTED",
+            "type": "{Number}",
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 196,
+            "description": "One of the possible values of the <code>errorCode</error> properties of the\n{{#crossLink \"ExternalAccessoriesModule/pickerFinished:event\"}}\n{{/crossLink}} event.\n\nThe specified accessory could not be found, perhaps because it was turned off prior to connection.",
+            "itemtype": "attribute",
+            "name": "PICKER_ERROR_NOT_FOUND",
+            "type": "{Number}",
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 207,
+            "description": "One of the possible values of the <code>errorCode</error> properties of the\n{{#crossLink \"ExternalAccessoriesModule/pickerFinished:event\"}}\n{{/crossLink}} event.\n\nThe user canceled the picker alert.",
+            "itemtype": "attribute",
+            "name": "PICKER_ERROR_CANCELLED",
+            "type": "{Number}",
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 218,
+            "description": "One of the possible values of the <code>errorCode</error> properties of the\n{{#crossLink \"ExternalAccessoriesModule/pickerFinished:event\"}}\n{{/crossLink}} event.\n\nSelecting an accessory failed for an unknown reason.",
+            "itemtype": "attribute",
+            "name": "PICKER_ERROR_UNKNOWN",
+            "type": "{Number}",
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 235,
+            "description": "Fired whenever a new accessory connects to the iOS device.",
+            "itemtype": "event",
+            "name": "accessoryConnected",
+            "params": [
+                {
+                    "name": "accessory",
+                    "description": "The object representing the accessory that\nwas connected.",
+                    "type": "Accessory"
+                },
+                {
+                    "name": "selected",
+                    "description": "<code>true</code> if the accessory was connected\ndue to the user having selected it from the picker started by the\n{{#crossLink \"ExternalAccessoriesModule/showPicker:method\"}}\n{{/crossLink}} function.",
+                    "type": "Boolean"
+                }
+            ],
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 270,
+            "description": "Fired whenever an accessory disconnects from the iOS device.",
+            "itemtype": "event",
+            "name": "accessoryDisconnected",
+            "params": [
+                {
+                    "name": "accessory",
+                    "description": "The object representing the accessory that\nwas disconnected.",
+                    "type": "Accessory"
+                }
+            ],
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 293,
+            "description": "An array of\n{{#crossLink \"Accessory\"}}\n{{/crossLink}} objects\nrepresenting the accessories currently connected\nto the iOS device.",
+            "itemtype": "property",
+            "name": "connectedAccessories",
+            "type": "{Array of Accessories}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 319,
+            "description": "Displays an alert that allows the user to pair the device with a Bluetooth\naccessory.",
+            "itemtype": "method",
+            "name": "showPicker",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "An object with the following properties:",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "filterCallback",
+                            "description": "An optional callback function that\ncan be used to filter the accessories shown by the picker. This function\nwill receive a string parameter, the name of the accessory, and expected\nto return <code>true</code> or <code>false</code> indicating whether or not\nthe accessory should be shown by the picker.",
+                            "type": "Function",
+                            "optional": true
+                        }
+                    ]
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModule.m",
+            "line": 334,
+            "description": "Fired whenever the picker opened using the\n{{#crossLink \"ExternalAccessoriesModule/showPicker:method\"}}\n{{/crossLink}}\nfunction completed.",
+            "itemtype": "event",
+            "name": "pickerFinished",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "The data received.",
+                    "type": "TiBuffer"
+                },
+                {
+                    "name": "errorCode",
+                    "description": "The error code; only present if an error occurred.\nPossible values are captured by the PICKER\\_ERROR\\_\\* constants.",
+                    "type": "Number"
+                },
+                {
+                    "name": "errorDomain",
+                    "description": "The error domain; only present if an error occurred.",
+                    "type": "String"
+                },
+                {
+                    "name": "errorDescription",
+                    "description": "The error description; only peresent if an\nerror occurred.",
+                    "type": "String"
+                }
+            ],
+            "since": "1.0.0",
+            "class": "ExternalAccessoriesModule",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/ComLogicallabsExternalaccessoriesModuleAssets.m",
+            "line": 1,
+            "description": "This is a generated file. Do not edit or your changes will be lost",
+            "class": "Session",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/SessionProxy.m",
+            "line": 40,
+            "description": "Fired whenever the module receives data through the session.",
+            "itemtype": "event",
+            "name": "receivedData",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "The data received.",
+                    "type": "TiBuffer"
+                },
+                {
+                    "name": "errorCode",
+                    "description": "The error code; only present if an error occurred.",
+                    "type": "Number"
+                },
+                {
+                    "name": "errorDomain",
+                    "description": "The error domain; only present if an error occurred.",
+                    "type": "String"
+                },
+                {
+                    "name": "errorDescription",
+                    "description": "The error description; only peresent if an\nerror occurred.",
+                    "type": "String"
+                }
+            ],
+            "since": "1.0.0",
+            "class": "Session",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/SessionProxy.m",
+            "line": 69,
+            "description": "Fired whenever the module, either successfully or unsuccessfully, attempted\nto write to the session.",
+            "itemtype": "event",
+            "name": "writeProgress",
+            "params": [
+                {
+                    "name": "bytesWritten",
+                    "description": "The number of bytes written. If an error occurred,\nthis number will be -1.",
+                    "type": "Number"
+                }
+            ],
+            "since": "1.0.0",
+            "class": "Session",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/SessionProxy.m",
+            "line": 103,
+            "description": "Writes data to the session.",
+            "itemtype": "method",
+            "name": "write",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "An object with the following properties:",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "data",
+                            "description": "The data to be written.",
+                            "type": "TiBuffer"
+                        }
+                    ]
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "since": "1.0.0",
+            "class": "Session",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/SessionProxy.m",
+            "line": 149,
+            "description": "Closes the session.",
+            "itemtype": "method",
+            "name": "close",
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "since": "1.0.0",
+            "class": "Session",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/SessionProxy.m",
+            "line": 161,
+            "description": "The accessory of the session",
+            "itemtype": "property",
+            "name": "accessory",
+            "type": "{Accessory}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Session",
+            "module": "Readme"
+        },
+        {
+            "file": "Classes/SessionProxy.m",
+            "line": 174,
+            "description": "The protocol of the session",
+            "itemtype": "property",
+            "name": "protocol",
+            "type": "{String}",
+            "final": 1,
+            "since": "1.0.0",
+            "class": "Session",
+            "module": "Readme"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nThis is a generated file. Do not edit or your changes will be lost",
+            "line": " Classes/ComLogicallabsExternalaccessoriesModuleAssets.m:1"
+        }
+    ]
+}

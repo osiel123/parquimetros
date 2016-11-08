@@ -1,0 +1,482 @@
+
+Thu Jun 02 2016 23:09:06 GMT-0600 (MDT)
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 12884901888
+
+Node.js
+  Node.js Version             = 0.10.37
+  npm Version                 = 3.9.2
+
+Titanium CLI
+  CLI Version                 = 5.0.6
+
+Titanium SDK
+  SDK Version                 = 5.2.0.GA
+  SDK Path                    = /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/mac/.appcelerator/install/5.2.2/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros --target device --ios-version 9.2 --device-family universal --developer-name Cesar Martinez (T75Z4FURSY) --device-id bbe30d277eaae97d62b4b40a777cccdfc38ec5dd --pp-uuid 9991465a-9c31-42b2-aea7-c3e50e8fb5f8 --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50060 --config-file /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/build-1464930537688.json --no-banner --project-dir /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros
+
+[DEBUG]  Detecting modules in /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules
+[DEBUG]  Detected android module: com.mwaysolutions.barcode 0.3 @ /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/android/com.mwaysolutions.barcode/0.3
+[DEBUG]  Detected iphone module: com.logicallabs.externalaccessories 1.0.1 @ /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.logicallabs.externalaccessories/1.0.1
+[DEBUG]  Detected iphone module: com.mirasense.scanditsdk 1.3.1 @ /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1
+[DEBUG]  Detecting modules in /Users/mac/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/mac/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.5 @ /Users/mac/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected android module: facebook 3.0.3 @ /Users/mac/Library/Application Support/Titanium/modules/android/facebook/3.0.3
+[DEBUG]  Detected android module: facebook 4.0.3 @ /Users/mac/Library/Application Support/Titanium/modules/android/facebook/4.0.3
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/mac/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: facebook 5.0.0 @ /Users/mac/Library/Application Support/Titanium/modules/android/facebook/5.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.7
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.map 2.2.3 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.map/2.2.3
+[DEBUG]  Detected android module: ti.map 2.3.0 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.map/2.3.0
+[DEBUG]  Detected android module: ti.map 2.3.3 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.map/2.3.3
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected android module: ti.map 2.3.6 @ /Users/mac/Library/Application Support/Titanium/modules/android/ti.map/2.3.6
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ /Users/mac/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ /Users/mac/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.7
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.8 @ /Users/mac/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/mac/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.5 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.0
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 3.2.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/facebook/3.2.0
+[DEBUG]  Detected iphone module: facebook 4.0.3 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/facebook/4.0.3
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: facebook 5.0.1 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/facebook/5.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.map 2.2.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.0
+[DEBUG]  Detected iphone module: ti.map 2.2.2 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.2
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.map 2.5.2 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.map/2.5.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.3 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.3
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/mac/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=com.logicallabs.externalaccessories version=latest platform=iphone deploy-type=test
+[INFO]   Found Titanium module id=com.logicallabs.externalaccessories version=1.0.1 platform=iphone deploy-type=test path=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.logicallabs.externalaccessories/1.0.1
+[DEBUG]  Looking for Titanium module id=com.mirasense.scanditsdk version=1.3.1 platform=iphone deploy-type=test
+[INFO]   Found Titanium module id=com.mirasense.scanditsdk version=1.3.1 platform=iphone deploy-type=test path=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/iphone
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building using iOS SDK: 9.2
+[INFO]   Building for iOS device: bbe30d277eaae97d62b4b40a777cccdfc38ec5dd
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphoneos
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   iOS Development Certificate: Cesar Martinez (T75Z4FURSY)
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Using default keychain
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/7y/fn702dhn57l2gcj2mdy45sm00000gn/T/build-2b3f9677fe9fe987c6b380843f8f622c452fe7b4.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"osielbq@gmail.com","session":"29c359ef0e7544d215effb7b9f9bc83e9a7767f6 NB6ThDMM4fBIj6MxyVdQ2IRnvwmx5CuZvmQvgMowt1MYag4wOYv30REaFsXGoe0T6mAC2ArMvxMmy3MrEc2CnIJ4Utxv4cDtBphWAsOszl8kL1LnT2xwEZ5Ity2AjvZuLYv7Uh+Og0bFoqzTWxgE9V3tKzraQPowpvgsn2peerG83UPAeOfOL225KyN9r7YdrbnbhICN8KDNZRxIRzo03cMg4vuelxFhUXPvQbQAU4Uo3dc43FmvBM5CHel/jIufdEZfUE2P0B+de5Fwms7XhQNK1sbHs8keAPBusPTK+dZYA4PFeuQW4LY5lOWOIKP0E5p7P41Sf50KhrMvTSTbHrfmhxsBUkcjXgeS9DcXXVtjO1w96oWR3yN+PZ7vKfqMIB5TNIKy8B1AaK62k9NTYVGQnUjA6L92/12IsL+fDHpXofafXv0zIy3jku8NxnfnWTR+0JkYWblJaaMn/nU+C7nE26BbO9foCmtve+/iFtticoKn90xVQFO+N2UE8goLTWuB80c6SqEWHgp5NIC+0mjLcgck5m1NHTP+ZsokNVa6EeZmAgCILTyRCXeGLI5SXAEohp/TKmmNLpxznHQfpxplOzUB7NrSHtsu8oI0eam98UhKL67gl+ObOnkggcPFtBQW6ZxMV1du7x5WkBYvea+Uz5Jb5aZXcgBT08FaGKJ88khOGpvm+gt1Kb+aR7CCpuT0MUH950aE9Pj1kaNryx4zex9Q9bg5iYi/AXO2GeUTUYXbw+yarWhH7Bdq1aziXqEDEa46TvHhocRsWFGZoA==","ipaddress":"192.168.1.117","fingerprint":"2b0237c9a768121bdaee0f9c3288ddf7c221cdd0","fingerprint_description":"Mac OSX Serial Number: C07J55ZNDJD0","guid":"eb23b546-6e86-4ab7-9777-7b78bf70a7f8","appid":"app.parquimetros.movil","name":"Parquimetros","org_id":100009357,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>app.parquimetros.movil</id>\n  <name>Parquimetros</name>\n  <version>1.0.0</version>\n  <publisher>Osiel</publisher>\n  <url>http://parquimetros.railstogo.com</url>\n  <description>undefined</description>\n  <copyright>2015 by Osiel</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>eb23b546-6e86-4ab7-9777-7b78bf70a7f8</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n        <key>NSLocationWhenInUseUsageDescription</key>\n        <string>Test NSLocationWhenInUseUsageDescription</string>\n        <key>NSLocationAlwaysUsageDescription</key>\n        <string>Test NSLocationAlwaysUsageDescription</string>\n        <key>UISupportedExternalAccessoryProtocols</key>\n        <array>\n          <string>com.zebra.rawport</string>\n        </array>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <manifest android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"app.parquimetros.movil\">\n      <application android:theme=\"@style/Theme.NoActionBar\"/>\n      <uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"16\"/>\n      <uses-permission android:name=\"android.permission.CAMERA\"/>\n    </manifest>\n  </android>\n  <mobileweb>\n    <precache/>\n    <splash>\n      <enabled>true</enabled>\n      <inline-css-images>true</inline-css-images>\n    </splash>\n    <theme>default</theme>\n  </mobileweb>\n  <modules>\n    <module platform=\"android\" version=\"0.3\">com.mwaysolutions.barcode</module>\n    <module platform=\"iphone\">com.logicallabs.externalaccessories</module>\n    <module platform=\"iphone\" version=\"1.3.1\">com.mirasense.scanditsdk</module>\n  </modules>\n  <deployment-targets>\n    <target device=\"iphone\">true</target>\n    <target device=\"ipad\">true</target>\n    <target device=\"android\">true</target>\n    <target device=\"blackberry\">false</target>\n    <target device=\"mobileweb\">false</target>\n  </deployment-targets>\n  <sdk-version>5.2.0.GA</sdk-version>\n  <property name=\"appc-app-id\" type=\"string\">57301087cb52c362040221fe</property>\n</ti:app>","modules":[{"id":"com.logicallabs.externalaccessories","platform":["iphone"],"deployType":["test"],"modulePath":"/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.logicallabs.externalaccessories/1.0.1","version":"1.0.1","manifest":{"version":"1.0.1","apiversion":"2","architectures":"armv7 i386 x86_64 arm64","description":"Logical Labs External Accessorios Module","author":"Zsombor Papp","license":"Logical Labs Commercial License","copyright":"Copyright (c) 2014 by Logical Labs","name":"externalaccessories","moduleid":"com.logicallabs.externalaccessories","guid":"d609f6a6-1935-49ec-9c36-37841f365e23","platform":"iphone","minsdk":"3.1.3.GA"},"native":true,"libName":"libcom.logicallabs.externalaccessories.a","libFile":"/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.logicallabs.externalaccessories/1.0.1/libcom.logicallabs.externalaccessories.a","hash":"9808f87e67cd330438f47123424d5180"},{"id":"com.mirasense.scanditsdk","platform":["iphone"],"version":"1.3.1","deployType":["test"],"modulePath":"/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1","manifest":{"version":"1.3.1","apiversion":"1","description":"Scandit SDK Barcode Scanner Module","author":"Mirasense AG","license":"All rights reserved","copyright":"Copyright (c) 2012 by Mirasense AG","name":"scanditsdk","moduleid":"com.mirasense.scanditsdk","guid":"75D3BDEC-E660-4727-BD86-D3962830BDDA","platform":"iphone","minsdk":"2.1.0.GA"},"native":true,"libName":"libcom.mirasense.scanditsdk.a","libFile":"/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/libcom.mirasense.scanditsdk.a","hash":"e15468851ae13486333cd2a4afbffad3"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"KHu6K+BS/e4WX2i7i7ra9A==","pepper":"RxelH++q7eg7Qt02T4DUKQ==","hmacKey":"ugsGnQFsT7tLjMRX+g291A==","o":100009357,"u":"c65ab8ff-61b9-474c-a4b6-5ecc302c7e34","p":"starter","i":"575110f504f9959307b136f5","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 2 native module libraries
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Parquimetros.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Parquimetros.entitlements
+[INFO]   Creating Info.plist
+[DEBUG]  Checking for Splash Screen localization
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Parquimetros_Prefix.pch
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Parquimetros.xcodeproj/xcshareddata/xcschemes/Parquimetros.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/debugger.plist
+[DEBUG]  Skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/back_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/back_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/back_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/camera_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/camera_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/camera_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/close_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/close_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/close_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/consult_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/consult_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/consult_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/consult_icon_selected.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/consult_icon_selected.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/consult_icon_selected.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/fine_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/fine_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/fine_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/fine_icon_selected.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/fine_icon_selected.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/fine_icon_selected.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/list.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/list.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/list.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/logo.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/logo.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/logo.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/qr_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/qr_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/qr_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/qr_icon_pressed.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/qr_icon_pressed.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/qr_icon_pressed.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/remove_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/remove_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/remove_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/reprint_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/reprint_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/reprint_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/search_icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/images/search_icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/search_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/raw/beep.wav
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/raw/beep.wav => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/raw/beep.wav
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/raw/notification.wav
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/raw/notification.wav => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/raw/notification.wav
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/LICENSE-2.0.txt
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/LICENSE-2.0.txt => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/LICENSE-2.0.txt
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/beep.wav
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/beep.wav => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/beep.wav
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon-pressed.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/camera-swap-icon-pressed.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon-pressed.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon-pressed@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/camera-swap-icon-pressed@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon-pressed@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/camera-swap-icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/camera-swap-icon@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/empty.cpp
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/empty.cpp => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/empty.cpp
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon-pressed.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-off-icon-pressed.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon-pressed.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon-pressed@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-off-icon-pressed@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon-pressed@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-off-icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-off-icon@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon-pressed.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-on-icon-pressed.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon-pressed.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon-pressed@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-on-icon-pressed@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon-pressed@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-on-icon.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/flashlight-turn-on-icon@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/poweredby.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/poweredby.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/poweredby.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/poweredby@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/assets/poweredby@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/poweredby@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-568h@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-667h@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-Landscape-736h@3x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-Landscape.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-Landscape@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-Portrait-736h@3x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-Portrait.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default-Portrait@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Overwriting /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/iphone/Default@2x.png => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying and minifying /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/Resources/app.js => /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/app_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/lib/ActionBarView_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/lib/database_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/lib/global_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/lib/network_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/lib/print_utils_ios_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/lib/style_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/ApplicationWindow_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/ConsultView_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/FinesView_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/GetTicketModalWindow_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/MenuView_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/PayFineWindow_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/PickerModalWindow_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/PrintWindow_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/QRWindow_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/ScannerWindow_js
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/ui/SelectPlatesModalWindow_js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets/_app_props__json
+[INFO]   Encrypting JavaScript files
+[DEBUG]  Preparing app_js
+[DEBUG]  Preparing lib/ActionBarView_js
+[DEBUG]  Preparing lib/database_js
+[DEBUG]  Preparing lib/global_js
+[DEBUG]  Preparing lib/network_js
+[DEBUG]  Preparing lib/print_utils_ios_js
+[DEBUG]  Preparing lib/style_js
+[DEBUG]  Preparing ui/ApplicationWindow_js
+[DEBUG]  Preparing ui/ConsultView_js
+[DEBUG]  Preparing ui/FinesView_js
+[DEBUG]  Preparing ui/GetTicketModalWindow_js
+[DEBUG]  Preparing ui/MenuView_js
+[DEBUG]  Preparing ui/PayFineWindow_js
+[DEBUG]  Preparing ui/PickerModalWindow_js
+[DEBUG]  Preparing ui/PrintWindow_js
+[DEBUG]  Preparing ui/QRWindow_js
+[DEBUG]  Preparing ui/ScannerWindow_js
+[DEBUG]  Preparing ui/SelectPlatesModalWindow_js
+[DEBUG]  Preparing _app_props__json
+[DEBUG]  Running /Users/mac/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/iphone/titanium_prep "app.parquimetros.movil" "/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/assets"
+[DEBUG]  Writing application routing source file: /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  Processing i18n file: en/strings.xml
+[DEBUG]  Processing i18n file: es/strings.xml
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/en.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/es.lproj/Localizable.strings
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Logs/Build/87B3AA1B-86A7-4564-9648-1F89DFFD006C.xcactivitylog
+[DEBUG]  Removing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.ipa
+[DEBUG]  Removing empty directories
+[INFO]   Optimizing .plist and .png files
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Info.plist
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/en.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/es.lproj/Localizable.strings
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/back_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/camera_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/close_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/consult_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/consult_icon_selected.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/fine_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/fine_icon_selected.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/list.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/logo.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/qr_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/qr_icon_pressed.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/remove_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/reprint_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/images/search_icon.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/ui/images/photoDefault.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29@2x~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29@3x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40@2x~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40@3x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon60x60@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon60x60@3x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon76x76@2x~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon76x76~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon83.5x83.5@2x~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-568h@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Landscape@2x~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Landscape~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Portrait@2x~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Portrait~ipad.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-800-667h@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-800-Landscape-736h@3x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-800-Portrait-736h@3x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon-pressed.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon-pressed@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/camera-swap-icon@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon-pressed.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon-pressed@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-off-icon@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon-pressed.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon-pressed@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/flashlight-turn-on-icon@2x.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/poweredby.png
+[DEBUG]  Optimizing /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/modules/com.mirasense.scanditsdk/poweredby@2x.png
+[INFO]   Invoking xcodebuild
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Parquimetros -configuration Debug -scheme Parquimetros -derivedDataPath /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone OBJROOT=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products
+[TRACE]  User defaults from command line:
+[TRACE]      IDEDerivedDataPathOverride = /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]  Build settings from command line:
+[TRACE]      OBJROOT = /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products
+[TRACE]  
+[TRACE]  === BUILD TARGET Parquimetros OF PROJECT Parquimetros WITH CONFIGURATION Debug ===
+[TRACE]  Check dependencies
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/ApplicationRouting.o Classes/ApplicationRouting.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=test -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-generated-files.hmap -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-own-target-headers.hmap -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-all-target-headers.hmap -iquote /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-project-headers.hmap -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/include/libxml2 -Iheaders -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/DerivedSources/armv7 -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/DerivedSources -F/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos -DDEBUG -include /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/PrecompiledHeaders/Parquimetros_Prefix-fypxxzfepttbvaepdtlglmkrmxnh/Parquimetros_Prefix.pch -MMD -MT dependencies -MF /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/ApplicationRouting.d --serialize-diagnostics /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/ApplicationRouting.dia -c /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/ApplicationRouting.m -o /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/ApplicationRouting.o
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/ApplicationRouting.o Classes/ApplicationRouting.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=test -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-generated-files.hmap -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-own-target-headers.hmap -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-all-target-headers.hmap -iquote /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros-project-headers.hmap -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/include/libxml2 -Iheaders -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/DerivedSources/arm64 -I/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/DerivedSources -F/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos -DDEBUG -include /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/PrecompiledHeaders/Parquimetros_Prefix-exweeobpahyxspgwjuqkjzopjxlb/Parquimetros_Prefix.pch -MMD -MT dependencies -MF /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/ApplicationRouting.d --serialize-diagnostics /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/ApplicationRouting.dia -c /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/ApplicationRouting.m -o /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/ApplicationRouting.o
+[TRACE]  
+[TRACE]  Ld build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/Parquimetros normal armv7
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/lib -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/APSAnalytics -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/APSHTTPClient -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.logicallabs.externalaccessories/1.0.1 -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1 -F/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos -filelist /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/Parquimetros.LinkFileList -miphoneos-version-min=7.1 -dead_strip -ObjC -weak_framework ExternalAccessory -weak_framework ExternalAccessory -framework CoreVideo -framework CoreMedia -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -framework UIKit -framework QuartzCore -framework SystemConfiguration -liconv -lz -lc++ -framework CoreVideo -framework CoreMedia -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -framework UIKit -framework QuartzCore -framework SystemConfiguration -liconv -lz -lc++ -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -lcom.logicallabs.externalaccessories -lcom.mirasense.scanditsdk -Xlinker -dependency_info -Xlinker /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/Parquimetros_dependency_info.dat -o /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/Parquimetros
+[TRACE]  
+[TRACE]  Ld build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/Parquimetros normal arm64
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/lib -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/APSAnalytics -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Classes/APSHTTPClient -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.logicallabs.externalaccessories/1.0.1 -L/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1 -F/Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos -filelist /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/Parquimetros.LinkFileList -miphoneos-version-min=7.1 -dead_strip -ObjC -weak_framework ExternalAccessory -weak_framework ExternalAccessory -framework CoreVideo -framework CoreMedia -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -framework UIKit -framework QuartzCore -framework SystemConfiguration -liconv -lz -lc++ -framework CoreVideo -framework CoreMedia -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -framework UIKit -framework QuartzCore -framework SystemConfiguration -liconv -lz -lc++ -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -lcom.logicallabs.externalaccessories -lcom.mirasense.scanditsdk -Xlinker -dependency_info -Xlinker /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/Parquimetros_dependency_info.dat -o /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/Parquimetros
+[TRACE]  ld: warning: ignoring file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/libcom.mirasense.scanditsdk.a, missing required architecture arm64 in file /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/modules/iphone/com.mirasense.scanditsdk/1.3.1/libcom.mirasense.scanditsdk.a (2 slices)
+[TRACE]  
+[TRACE]  CreateUniversalBinary build/Products/Debug-iphoneos/Parquimetros.app/Parquimetros normal armv7\ arm64
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/armv7/Parquimetros /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Objects-normal/arm64/Parquimetros -output /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Parquimetros
+[TRACE]  
+[TRACE]  CompileAssetCatalog build/Products/Debug-iphoneos/Parquimetros.app Assets.xcassets
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/assetcatalog_dependencies --output-partial-info-plist /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --target-device iphone --target-device ipad --minimum-deployment-target 7.1 --platform iphoneos --compile /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets
+[TRACE]  /* com.apple.actool.document.notices */
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /* com.apple.actool.compilation-results */
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29@2x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29@3x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40@2x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40@3x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon60x60@2x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon60x60@3x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon29x29@2x~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon40x40@2x~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon76x76~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon76x76@2x~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/AppIcon83.5x83.5@2x~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-800-Portrait-736h@3x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-800-Landscape-736h@3x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-800-667h@2x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700@2x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-568h@2x.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Portrait~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Landscape~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Portrait@2x~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/LaunchImage-700-Landscape@2x~ipad.png
+[TRACE]  /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/assetcatalog_generated_info.plist
+[TRACE]  
+[TRACE]  ProcessInfoPlistFile build/Products/Debug-iphoneos/Parquimetros.app/Info.plist Info.plist
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      builtin-infoPlistUtility /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Info.plist -genpkginfo /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/assetcatalog_generated_info.plist -o /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Info.plist
+[TRACE]  
+[TRACE]  GenerateDSYMFile build/Products/Debug-iphoneos/Parquimetros.app.dSYM build/Products/Debug-iphoneos/Parquimetros.app/Parquimetros
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Parquimetros -o /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app.dSYM
+[TRACE]  
+[TRACE]  Touch build/Products/Debug-iphoneos/Parquimetros.app
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /usr/bin/touch -c /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app
+[TRACE]  
+[TRACE]  Strip build/Products/Debug-iphoneos/Parquimetros.app/Parquimetros
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Parquimetros
+[TRACE]  
+[TRACE]  CopySwiftLibs build/Products/Debug-iphoneos/Parquimetros.app
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-stdlib-tool --copy --verbose --sign 69A055009B74EE34CD6F936DB4CEE3E2667A5D2C --scan-executable /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Parquimetros --scan-folder /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Frameworks --scan-folder /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/PlugIns --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/iAd.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreMedia.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreMotion.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreText.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/EventKitUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Security.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreGraphics.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AddressBook.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AddressBookUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CFNetwork.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreLocation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MapKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MessageUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MobileCoreServices.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/OpenGLES.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/SystemConfiguration.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AudioToolbox.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MediaPlayer.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AVFoundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/StoreKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/ExternalAccessory.framework --platform iphoneos --destination /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app/Frameworks --strip-bitcode
+[TRACE]  
+[TRACE]  ProcessProductPackaging Parquimetros.entitlements build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros.app.xcent
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      builtin-productPackagingUtility /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/Parquimetros.entitlements -entitlements -format xml -o /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros.app.xcent
+[TRACE]  
+[TRACE]  CodeSign build/Products/Debug-iphoneos/Parquimetros.app
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      
+[TRACE]  Signing Identity:     "iPhone Developer: Cesar Martinez (T75Z4FURSY)"
+[TRACE]  Provisioning Profile: "ParquimetrosDeveloperProvisioningProfile"
+[TRACE]                        (9991465a-9c31-42b2-aea7-c3e50e8fb5f8)
+[TRACE]      /usr/bin/codesign --force --sign 69A055009B74EE34CD6F936DB4CEE3E2667A5D2C --entitlements /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Intermediates/Parquimetros.build/Debug-iphoneos/Parquimetros.build/Parquimetros.app.xcent --timestamp=none /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app
+[TRACE]  
+[TRACE]  Validate build/Products/Debug-iphoneos/Parquimetros.app
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      export PRODUCT_TYPE=com.apple.product-type.application
+[TRACE]      builtin-validationUtility /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app
+[TRACE]  
+[TRACE]  Touch build/Products/Debug-iphoneos/Parquimetros.app.dSYM
+[TRACE]      cd /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+[TRACE]      /usr/bin/touch -c /Users/mac/Documents/Titanium_Studio_Workspace/Parquimetros/build/iphone/build/Products/Debug-iphoneos/Parquimetros.app.dSYM
+[TRACE]  
+[TRACE]  ** BUILD SUCCEEDED **
+[INFO]   Finished building the application in 1m 41s 354ms
+[INFO]   Installing app on device: iPad de Cesar
+[INFO]   App successfully installed on device: iPad de Cesar
